@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-29T15:45:01.601Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="buPeqTGa75Pox-SOtkad" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-29T16:02:06.932Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="QV7BSQF82bx4x-syL4wo" version="13.10.4" type="github">
   <diagram id="h1go9skNZxWVvWuTAxgh" name="Page-1">
-    <mxGraphModel dx="3824" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="3390" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,7 +78,7 @@
         <mxCell id="0IOBR0UWIJ8B12urthg3-50" value="&lt;h3&gt;ocr&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#fad9d5;fontFamily=Verdana;fontSize=18;strokeColor=#36393D;" parent="0IOBR0UWIJ8B12urthg3-47" vertex="1">
           <mxGeometry x="300" y="45" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aP0xkrd6JBsTT6EtkUmq-35" value="&lt;h3 style=&quot;font-size: 18px&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 18px&quot;&gt;结果一致性存储中心&lt;/font&gt;&lt;/h3&gt;&lt;h3 style=&quot;font-size: 18px&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 18px&quot;&gt;(Redis)&lt;/font&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+        <mxCell id="aP0xkrd6JBsTT6EtkUmq-35" value="&lt;h3 style=&quot;font-size: 18px&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 18px&quot;&gt;结果存储中心&lt;/font&gt;&lt;/h3&gt;&lt;h3 style=&quot;font-size: 18px&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 18px&quot;&gt;(Redis)&lt;/font&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="-1100" y="490" width="360" height="180" as="geometry" />
         </mxCell>
         <mxCell id="YrBBLmiHEUmSjlM092Gt-29" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=#457B9D;strokeWidth=2;" edge="1" parent="1" source="aP0xkrd6JBsTT6EtkUmq-43" target="aP0xkrd6JBsTT6EtkUmq-35">
@@ -87,7 +87,7 @@
         <mxCell id="aP0xkrd6JBsTT6EtkUmq-43" value="&lt;h3 style=&quot;font-size: 18px&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;结果同步&lt;/font&gt;&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="-880" y="855" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YrBBLmiHEUmSjlM092Gt-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=#457B9D;strokeWidth=2;" edge="1" parent="1" source="aP0xkrd6JBsTT6EtkUmq-51" target="aP0xkrd6JBsTT6EtkUmq-35">
+        <mxCell id="YrBBLmiHEUmSjlM092Gt-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;strokeWidth=2;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aP0xkrd6JBsTT6EtkUmq-35" target="aP0xkrd6JBsTT6EtkUmq-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aP0xkrd6JBsTT6EtkUmq-51" value="&lt;h3 style=&quot;font-size: 18px&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;结果合并&lt;/font&gt;&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
@@ -183,6 +183,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-430" y="885" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YrBBLmiHEUmSjlM092Gt-32" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;rounded=0;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-1640" y="875" width="560" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
